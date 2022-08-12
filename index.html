@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <h1>Megfigyelési adatok beküldése</h1>
+
+  <button class="button__open">Elküld</button>
+
+
+  <!-- Modal -->
+  <div class="container">
+    <div class="modal hide">
+
+      <div class="modal__content">
+        <div class="modal__header">
+          <span class="close__button" tabindex="3">&times;</span>
+          <h2>Hiányos adatok</h2>
+        </div>
+        <div class="modal__body">
+          <p>Nem adtál meg minden adatot a megfigyeléshez!
+            <br>
+            Kérjük nézd át mégegyszer és pótold a hiányt!
+          </p>
+          <p>Köszönjük!</p>
+        </div>
+        <div class="modal__footer">
+          <button class="button__ok" tabindex="1">Rendben</button>
+          <button class="button__cancel" tabindex="2">Mégsem</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
